@@ -1,12 +1,12 @@
 ﻿using Domain.Entities;
 
-User a = new User();
+User a = new User()
+{
+    Password = "farazmj82"
+};
 a.Name = "faraz";
 a.Email = "farazebipax@gmail.com";
-a.Password = "farazmj82";
 a.Id = 1;
-
-
 
 Console.WriteLine(a);
 Console.WriteLine(a.GetType());
