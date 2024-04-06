@@ -7,8 +7,11 @@ User a = new User()
 a.Name = "faraz";
 a.Email = "farazebipax@gmail.com";
 a.Id = 1;
+a.Active();
 
 User b = a with { Password = "F@razmj82" };
+b.NotActive();
+
 //here we can have our user but change the password with 'with'
 //its just for record
 
