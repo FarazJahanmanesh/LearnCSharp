@@ -1,5 +1,10 @@
 ﻿using Domain.Entities;
 
+
+//وقتی میگوییم رکورد قابل تغییر نیست منظور همچین چیزی است
+var personRecord = new Person("faraz", "jahanmanesh");
+//personRecord.Name = "far"; //this code have error
+
 User a = new User()
 {
     Password = "farazmj82"
@@ -8,6 +13,8 @@ a.Name = "faraz";
 a.Email = "farazebipax@gmail.com";
 a.Id = 1;
 a.Active();
+
+a.Name = "fa";
 
 User b = a with { Password = "F@razmj82" };
 b.NotActive();

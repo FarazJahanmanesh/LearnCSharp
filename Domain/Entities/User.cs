@@ -21,3 +21,5 @@ public record User
         => IsActive = false;
     //for boolean and enums is better to set the private set for prop and use methods 
 }
+
+
