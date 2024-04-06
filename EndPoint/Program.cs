@@ -23,7 +23,7 @@ Console.WriteLine(a.Name);
 Console.WriteLine(a.Email);
 Console.WriteLine(a.Password);
 
-
+//how can use struct
 Product cellphone;
 cellphone.Name = "Iphone";
 cellphone.Id = 2;
