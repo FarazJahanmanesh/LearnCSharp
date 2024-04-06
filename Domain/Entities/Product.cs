@@ -1,4 +1,9 @@
 ﻿#nullable disable
+/*
+ این امر برای مواردی که نیاز به بررسی خالی بودن فیلد ها نیست در نظر گرفته میشود
+ */
+
+
 namespace Domain.Entities;
 
 public struct Product
