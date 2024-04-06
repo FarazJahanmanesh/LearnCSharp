@@ -22,3 +22,24 @@ Console.WriteLine(a.Id);
 Console.WriteLine(a.Name);
 Console.WriteLine(a.Email);
 Console.WriteLine(a.Password);
+
+
+Product cellphone;
+cellphone.Name = "Iphone";
+cellphone.Id = 2;
+cellphone.Price = "2000";
+cellphone.IsExist = true;
+
+Console.WriteLine(cellphone);
+Console.WriteLine(cellphone.GetType());
+
+Console.WriteLine(cellphone.Id);
+Console.WriteLine(cellphone.Name);
+Console.WriteLine(cellphone.Price);
+Console.WriteLine(cellphone.IsExist);
+
+
+
+
+
+
