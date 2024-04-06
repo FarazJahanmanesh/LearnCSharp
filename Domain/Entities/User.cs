@@ -1,4 +1,6 @@
 ﻿namespace Domain.Entities;
+#nullable disable
+//disable props nullable
 
 public record User
 {
