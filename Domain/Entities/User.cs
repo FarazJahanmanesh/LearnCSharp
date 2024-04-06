@@ -2,6 +2,10 @@
 #nullable disable
 //disable props nullable
 
+
+/*
+ برای تعریف ساختار مدل های ما اسفتاده میشود
+ */
 public record User
 {
     public long Id { get; set; }
